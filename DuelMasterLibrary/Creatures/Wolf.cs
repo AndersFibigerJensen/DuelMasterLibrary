@@ -101,7 +101,7 @@ namespace DuelMasterLibrary.Creatures
                     defense += equip.Defense;
                 }
             }
-            Tracer.traceinfo($"{defense}");
+            Tracer.traceinfo($"{Name} has {defense} in defense");
             return defense;
         }
     }
