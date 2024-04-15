@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuelMasterLibrary", "DuelMasterLibrary\DuelMasterLibrary.csproj", "{E316EE1F-8A40-48CB-A24D-C8EF7B8ADFD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker", "Worker\Worker.csproj", "{1629C82E-11D6-411B-893C-5997352D33E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E316EE1F-8A40-48CB-A24D-C8EF7B8ADFD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E316EE1F-8A40-48CB-A24D-C8EF7B8ADFD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E316EE1F-8A40-48CB-A24D-C8EF7B8ADFD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E316EE1F-8A40-48CB-A24D-C8EF7B8ADFD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1629C82E-11D6-411B-893C-5997352D33E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1629C82E-11D6-411B-893C-5997352D33E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1629C82E-11D6-411B-893C-5997352D33E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1629C82E-11D6-411B-893C-5997352D33E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4763C74-A9F9-4401-895B-1BBBC53C544E}
+	EndGlobalSection
+EndGlobal
