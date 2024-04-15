@@ -42,9 +42,11 @@ namespace Worker
                     break;
                 case InputType.item:
                     _player.Attack();
+                    Console.WriteLine("attaked");
                     break;
                 case InputType.pickup:
                     _player.Pickup();
+                    Console.WriteLine("picked up");
                     break;
                 case InputType.quit:
                     break;

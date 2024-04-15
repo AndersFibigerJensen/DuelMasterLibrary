@@ -9,10 +9,10 @@ namespace DuelMasterLibrary.GameMechanics
 {
     public class Board
     {
-        [XmlAttribute("Col")]
+        
         public int Col { get; set; }
         
-        [XmlAttribute("Row")]
+        
         public int Row { get; set; }
 
         public Board(int col, int row)

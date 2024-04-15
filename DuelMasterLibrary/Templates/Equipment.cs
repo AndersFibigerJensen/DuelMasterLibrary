@@ -14,10 +14,10 @@ namespace ClassMaster.Templates
             Defense = defense;
         }
 
-        [XmlAttribute("Defense")]
+
         public int Defense { get; set; }
 
-        [XmlAttribute("Equipable")]
+
         public bool Equipable { get; set; }
 
     }

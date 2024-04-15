@@ -20,7 +20,7 @@ namespace DuelMasterLibrary.GameMechanics
 
         public int LowRoll { get; set; }
 
-        [XmlAttribute("Highestroll")]
+        
         public int Highestroll { get; set; }
 
         /// <summary>

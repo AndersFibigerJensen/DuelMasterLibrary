@@ -41,22 +41,18 @@ namespace DuelMasterLibrary.Templates
 
         public IState State { get; set; }
 
-        [XmlElement(ElementName = "Worker")]
+
         public DuelMasterWorker? Worker { get; set; }
 
-        [XmlElement(ElementName = "WorldObject")]
         public List<WorldObject> Inventory { get; set; }
 
-        [XmlElement(ElementName = "Position")]
         public Position BoardPosition { get; set; }
 
-        [XmlElement(ElementName = "Equipment")]
+
         public Equipment[] Equipments { get; set; }
 
-        [XmlAttribute("Hitpoints")]
         public int Hitpoints { get { return _hitpoints; } set { _hitpoints = value; } }
 
-        [XmlAttribute("Dead")]
         public bool Dead
         {
             get { if (Hitpoints == 0) _dead = true; return _dead; }

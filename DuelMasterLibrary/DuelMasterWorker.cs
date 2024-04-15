@@ -105,7 +105,7 @@ namespace DuelMasterLibrary
         {
             if(examinemovement(creature.BoardPosition)==true)
             {
-                creature.Worker = _instance;
+                creature.Worker =Worker;
                 _creatures.Add(creature);
             }
 

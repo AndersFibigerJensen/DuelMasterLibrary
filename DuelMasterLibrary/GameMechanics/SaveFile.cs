@@ -13,7 +13,6 @@ using System.Xml.Serialization;
 
 namespace DuelMasterLibrary.GameMechanics
 {
-    [XmlRoot(ElementName = "SaveFile")]
     public class SaveFile
     {
         public SaveFile()
