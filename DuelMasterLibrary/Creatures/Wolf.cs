@@ -83,6 +83,8 @@ namespace DuelMasterLibrary.Creatures
             int result = new DamageController(controller.Value-TotalDefense()).Value;
             Tracer.traceinfo($"Damaged received {result}");
             Hitpoints -= result;
+            Hitpoints = new DamageController(Hitpoints).Value;
+            Tracer.traceinfo($"{Name} has {Hitpoints} hitpoints");
         }
 
         /// <summary>
